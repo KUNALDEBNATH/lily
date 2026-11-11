@@ -1,0 +1,15 @@
+# Core (text mode, tests, self-test)
+numpy
+playwright
+pytest
+# Voice mode
+sounddevice
+faster-whisper
+# Windows desktop control / UI Automation (Windows only)
+pywinauto; sys_platform == "win32"
+pyautogui; sys_platform == "win32"
+# Optional perception fallbacks (OCR + icon matching). OCR also needs the Tesseract program installed.
+pillow
+pytesseract
+opencv-python-headless
+# NOT listed on purpose: torch / transformers / peft (only for `train-candidate`; see README section 17)
