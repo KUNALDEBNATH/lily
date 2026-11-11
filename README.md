@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LILI
 
 A lightweight, voice-to-voice computer-use agent: she listens, speaks (female SAPI voice), operates a browser and
@@ -161,3 +162,6 @@ The sanitiser is a pattern list, not a guarantee; treat the gate, not the filter
 | she ignores you | start with "LILI, ..."; check `heard:` lines in the console |
 | browser won't start | `python -m playwright install chromium`, or `$env:LILI_BROWSER_CHANNEL = "msedge"` |
 | `pip install faster-whisper` fails on Python 3.13 | install Python 3.11 (PyPI lists 3.9-3.11) |
+=======
+# lily
+>>>>>>> 94c2d8ac78cc95c7214a7b798da51793f9b08a2c
